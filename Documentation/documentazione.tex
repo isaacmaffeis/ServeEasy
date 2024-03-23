@@ -48,7 +48,6 @@
 \titleformat{\chapter}[display]
 {\normalfont\bfseries}{}{0pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{-50pt}{40pt}
-
 % Bibliografia
 \usepackage[autostyle, italian=guillemets]{csquotes}
 \usepackage[backend=biber, style=numeric]{biblatex}
@@ -67,8 +66,8 @@
 \usepackage{graphicx}
 \usepackage[nottoc]{tocbibind}
 \usepackage{wrapfig}
-% svg
-\usepackage{svg}
+% math
+\usepackage{amsmath}
 % Didascalie
 \usepackage[font=small,format=hang,labelfont={sf,bf}]{caption}
 \usepackage{subcaption}
@@ -145,9 +144,10 @@
 	\input{iterazione0/toolchain}
 	\chapter{Iterazione 1}
 	\input{iterazione1/introduzione}
+	\input{iterazione1/use_cases}
 	\input{iterazione1/component_diagram}
+	\input{iterazione1/database}
+	\input{iterazione1/algoritmo}
 	\backmatter	
-	%	\input{fine/acronimi}
-%	\input{fine/bibliografia}
 	
 \end{document}
